@@ -6,7 +6,7 @@ class TestCase(unittest.TestCase):
         stuff = []
         result = listAverage.average(stuff)
         self.assertEqual(result, None)
-    def test_integer(self):
+    def test_normal(self):
         stuff = [2, 2, 2]
         result = listAverage.average(stuff)
         self.assertEqual(result, 2)
