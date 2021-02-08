@@ -14,7 +14,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(result, "Matt Watson")
         result = names.generateName("Levi", "Ackerman")
         self.assertEqual(result, "Levi Ackerman")
-    def test_spaces(self):
+    def test_numbers(self):
         result = names.generateName("This123", "Isn0tvalid")
         self.assertEqual(result, "Name can't contain numbers.")
 if __name__ == '__main__':
